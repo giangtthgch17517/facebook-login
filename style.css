@@ -1,0 +1,73 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #3578E5;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 50px;
+    padding-bottom: 0px;
+  }
+  .topnav p{
+    float: right;
+    color: #f2f2f2;
+    padding: 20px;
+    text-decoration: none;
+
+  }
+  
+article {
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    vertical-align: middle;
+    color: blue;
+  }
+  
+  
+.register {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    height: 500px;
+    padding-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+input[type=text]{
+    width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=password]{
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button{
+    background-color: green;
+    color: white;
+}
+
+table td{
+    text-align: left;
+}
+
+footer{
+    background-color: white;
+    float: bottom;
+}
